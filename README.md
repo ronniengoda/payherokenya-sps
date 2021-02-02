@@ -1,8 +1,9 @@
 # payherokenya-sps
-We have developed this API for developers who wish to integrate MPESA payment into their applications using our swift payment service. First of all you will need an account with us.
+We have developed this API for developers who wish to integrate MPESA payment(B2C and C2B) into their applications using our swift payment service. First of all you will need an account with us.
 
 You will need to create a business account with us using the following link: https://payherokenya.com/sps/portal
-After creating an account you will log in to your account. Under the applications menu, you will find your account details like username, api_key, account number, and callback URL. You will have to edit your details to provide your callback URL. This is where all payment notifications will be sent to.
+After creating an account you will log in to your account. Under the business applications menu, you will find your account details like username, api_key, account number, and callback URL. 
+You will have to edit your details to provide your callback URL. This is where all payment notifications will be sent to.
 
 By default we will assign you an account number, this will uniquely identify you when payments are made to you.
 If you wish to add another reference number to this eg invoice number if your clients pay you will have to attach it to your original account number like for example your assigned account number is 400200 and you want to attach an invoice number to it when a client makes payment assume invoice number is 1234. Your customer's account number will look like 400200-1234. We will send the reference number to your callback URL for your processing.
