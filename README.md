@@ -11,12 +11,14 @@ If you wish to add another reference number to this eg invoice number if your cl
 We have developed a payment checkout form that you can easily integrate on your website. Simply donwload the payment-checkout.php file and global.php file and upload on your web server.
 
 All you need to do is provide your API key and username on the payment-checkout.php file.
-On your website when users want to pay you will need two things amount and payment_reference. You will POST this values to the payment-checkout.php file and the user will be presented with a form to provide the MPESA phone number they want to pay with and they complete the payment.
+On your website when users want to pay you will need two things: amount and payment_reference. You will POST this values to the payment-checkout.php file as your action file and the user will be presented with a form to provide the MPESA phone number they want to pay with and they complete the payment.
 Ensure you save your customer details like name,payment reference and amount first before proceeding to the payment checkout for this is the final step.
 
 We will send you a callback on your provided callback URL containing the payment details for your processing.
 
-# How to set or update your CALBACK URL
+![alt text](https://github.com/ronniengoda/payherokenya-sps/blob/main/spspcf.png?raw=true)
+
+# How to set or update your CALLBACK URL
 On your dashboard click on Business Aplications menu. You will be presented with your application details. Click on the check box on the far left column. A more menu will appear as shown in the image below. Select set or update callback URL and provide your callback URL
 
 ![alt text](https://github.com/ronniengoda/payherokenya-sps/blob/main/spsba.png?raw=true)
