@@ -82,11 +82,11 @@ if (!isset($_POST['phone'])) {
                   </div>
                 </div>
               </div>
-              <button type="button" class="btn btn-primary btn-block">
-               <strong>Final Payment</strong> <span class="badge badge-light"><strong>Ksh <?php echo $_SESSION["amount"]; ?></strong></span>
+               <button type="button" class="btn btn-outline-primary btn-rounded waves-effect btn-block">
+               <strong>Final Payment</strong> <span class="badge badge-pill badge-dark ml-4"><strong>Ksh <?php echo $_SESSION["amount"]; ?></strong></span>
              </button>
-
-             <button type="submit" class="btn btn-success btn-block"><strong>PAY NOW</strong></button>
+                <br>
+             <button type="submit" class="btn btn-success btn-block btn-rounded"><strong>PAY NOW</strong></button>
 
            </form>
          </div>
