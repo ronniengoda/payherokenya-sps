@@ -12,3 +12,5 @@ $MPESA_Reference=$data->response->MPESA_Reference;//Contains MPESA reference num
 $Account=$data->response->Account;//Contains your account number;
 $User_Reference=$data->response->User_Reference; //this is the unique payment reference provided for C2B transaction
 $Transaction_Date=$data->response->Transaction_Date;//Contains the date and time when transaction happened
+
+#You can now write your logic to process the above below here.
