@@ -1,7 +1,7 @@
 <?php 
 include 'global.php';
 //APPLICATION REGISTRATION API
-      'username' =>"",//provide your desired username
+    $data=array('username' =>"",//provide your desired username
         'password'=>"",//provide your password here
         'email'=>"",//provide your email/business email
         'business_name'=>"",//provide your business name
