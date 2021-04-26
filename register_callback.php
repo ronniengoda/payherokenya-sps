@@ -1,5 +1,6 @@
 <?php 
 include 'global.php';
+//CALLBACK URL REGISTRATION API
 $data=array(
         'api_key' =>"",//provide api keyhere
         'username'=>"",//provide username here
