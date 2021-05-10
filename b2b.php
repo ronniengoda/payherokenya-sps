@@ -4,7 +4,7 @@ include 'global.php';
 $data=array(
         'api_key' =>"",//provide api keyhere
         'username'=>"",//provide username here
-        'amount'=>"",//provide amount
+        'amount'=>'',//provide amount
         'destination_account_number'=>'',//provide destination/recipient account number.
         'payment_reference'=>'NA'//provide the payment reference for this transaction,could be anything unique to identify the transaction eg: invoice number etc.
     );
