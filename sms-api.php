@@ -2,7 +2,8 @@
 include 'global.php';
 
 //Use this API send SMS : Sender Name Will Display. PAYHERO. Only use this api to deliver trasncational related messages.
-        'api_key' =>"",//provide api keyhere
+        $data=array(
+         'api_key' =>"",//provide api keyhere
         'username'=>"",//provide username here
         'recipient'=>'',//provide recipient phone number in international format.
         'message'=>'',//provide message to be sent via sms
