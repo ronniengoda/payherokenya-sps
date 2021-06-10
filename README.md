@@ -23,3 +23,13 @@ We will send you a callback on your provided callback URL containing the payment
 On your dashboard click on Business Aplications menu. You will be presented with your application details. Click on the check box on the far left column. A more menu will appear as shown in the image below. Select set or update callback URL and provide your callback URL
 
 ![alt text](https://github.com/ronniengoda/payherokenya-sps/blob/main/spsba.png?raw=true)
+
+# MORE PAYMENT OPTIONS USING OUR ADVANCED PAYMENT CHECKOUT FORM
+![alt text](https://www.ipayafrica.com/sites/default/files/slideshow-images/ipay%20banner%203.jpg?raw=true)
+We have developed an advanced checkout form which you can now use to collect payments and your clients are presented with a wide array of payment options to choose from apart from MPESA.
+
+To get started simply download the advanced-payment-checkout.php file from our repository. This file does not need any advanced setup. It contains a pre built html form that requires your customer phone number in international format, your customer email, the amount to be paid and the payment reference. This are the form elements that are visisble to your user.
+
+You can also pre populate the values of the form using php to give the user easier time.
+At the end of the form are two fields that need to be fed values by you, this are; username and business_account_number. This values are available on your SPS dashboard. Simply place them in the value="" parameter. This are not visible to the user.
+Thats it, your user can now click pay and the rest of the process we will take care of it.
