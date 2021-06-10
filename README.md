@@ -1,5 +1,5 @@
 # PAY HERO KENYA-SWIFT PAYMENT SERVICE (PAYMENT PROCESSING GATEWAY)
-We have developed this API for developers who wish to integrate MPESA payment(B2C and C2B) into their applications using our swift payment service. First of all you will need an account with us.
+We have developed this API for developers who wish to integrate MPESA payment(B2C and C2B) Airtel Money, Equity, Pesa Link, Visa/Mastercard, Union Pay and Mvisa into their applications using our Swift Payment Service. First of all you will need an account with us.
 
 You will need to create a business account with us using the following link: https://payherokenya.com/sps/portal
 After creating an account you will log in to your account. Under the business applications menu, you will find your account details like username, api_key, account number, and callback URL. 
