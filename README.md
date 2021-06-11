@@ -1,3 +1,5 @@
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=ronniengoda&count_private=true&theme=tokyonight&showicons=true)]()
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ronniengoda&langs_count=5&theme=tokyonight)]()
 # PAY HERO KENYA-SWIFT PAYMENT SERVICE (PAYMENT PROCESSING GATEWAY)
 We have developed this API for developers who wish to integrate MPESA payment(B2C and C2B) Airtel Money, Equity, Pesa Link, Visa/Mastercard, Union Pay and Mvisa into their applications using our Swift Payment Service. First of all you will need an account with us.
 
