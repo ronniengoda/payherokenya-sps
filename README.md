@@ -10,6 +10,7 @@ If you wish to add another reference number to this eg invoice number if your cl
 
 # How to use our payment checkout form
 We have developed a payment checkout form that you can easily integrate on your website. Simply donwload the payment-checkout.php file and global.php file and upload on your web server.
+### See a live demo of how we implemented our basic and advanced payment checkout forms: https://payherokenya.com/onlineshop/
 
 All you need to do is provide your API key and username on the payment-checkout.php file.
 On your website when users want to pay you will need two things: amount and payment_reference. You will POST this values to the payment-checkout.php file as your action file and the user will be presented with a form to provide the MPESA phone number they want to pay with and they complete the payment.
