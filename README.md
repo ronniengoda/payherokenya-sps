@@ -34,3 +34,12 @@ To get started simply download the advanced-payment-checkout.php file from our r
 You can also pre populate the values of the form using php to give the user easier time.
 At the end of the form are two fields that need to be fed values by you, this are; username and business_account_number. This values are available on your SPS dashboard. Simply place them in the value="" parameter. This are not visible to the user.
 Thats it, your user can now click pay and the rest of the process we will take care of it.
+
+# SPS TRANSACTION CHARGES C2B,SIMPLE CHECKOUT FORM
+![alt text](https://saidecommunity.org/imagecloud/images/2021/06/16/SPSTANSFEES.png?raw=true)
+
+# SPS TRANSACTION CHARGES FOR ADVANCED CHECKOUT FORM:
+In the advanced checkout form we have several payment methods, this payments are processed by ipay africa hence the transaction charge is abit different from the ones above.
+The formualar used to calculate this transaction charge is: ((normal-sps-transaction-charge/2)+(amount-paid*0.03))
+
+### SMS CHARGE IS KSH 1.8 PER SMS
