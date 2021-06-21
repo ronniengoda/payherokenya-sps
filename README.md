@@ -40,6 +40,6 @@ Thats it, your user can now click pay and the rest of the process we will take c
 
 # SPS TRANSACTION CHARGES FOR ADVANCED CHECKOUT FORM:
 In the advanced checkout form we have several payment methods, this payments are processed by ipay africa hence the transaction charge is abit different from the ones above.
-The formualar used to calculate this transaction charge is: ((normal-sps-transaction-charge/2)+(amount-paid*0.03))
+The formualar used to calculate this transaction charge is: 	if($channel=="Credit_Card"){$serviceFee=($amount*0.035)+serviceFee($amount/2);}else{$serviceFee=($amount*0.03)+serviceFee($amount/2);}
 
 ### SMS CHARGE IS KSH 1.8 PER SMS
