@@ -1,10 +1,6 @@
 <?php 
 //USE THIS CHECKOUT FORM TO RECEIVE MPESA PAYMENTS DIRECTLY TO YOUR SET BANK ACCOUNT.
-define("PREPEND_PATH", "../");
-$hooks_dir = dirname(__FILE__);
-include("../defaultLang.php");
-include("../language.php");
-include("../lib.php");
+include("global.php");
 
 $api_key="";//provide your api key here
 $username="";//provide your username here
