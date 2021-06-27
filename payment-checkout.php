@@ -95,6 +95,13 @@ input[type="radio"] {
                                 <img src="https://www.betway.co.ke/images/shared/other/kenyalipa-na-m-pesa.png" width="100%">
                                 <form role="form" method="POST" action="">
                                     <div class="form-group">
+                                  <label for="sel1">Select Payment Settlement Method:</label>
+                                  <select class="form-control" id="settlement" name="settlement">
+                                    <option value="spswallet">Merchant SPS Wallet</option>
+                                    <option value="mpesatobank">Merchant Bank Account</option>
+                                  </select>
+                                </div>
+                                    <div class="form-group">
                                         <div class="alert alert-info">Kindly provide an MPESA registered phone number to complete the transaction.</div>
                                         <label for="phoneNumber">
                                         PHONE NUMBER</label>
@@ -210,10 +217,14 @@ input[type="radio"] {
         'phone'=>$_POST['phone'],//provide phone number here
         'user_reference'=>$_SESSION["payment_reference"] //provide user reference here
     );
-        
+ 
         //send our payment request now
         $jdata=json_encode($data);
+        $settlement_method=$_POST['settlement'];
+        if($settlement_method=="spswallet"){
         $response=sendRequest("https://payherokenya.com/sps/portal/app/stk.php",$jdata);
+        }
+        else{$response=sendRequest("https://payherokenya.com/sps/portal/app/mtb.php",$jdata);}
         $decode=json_decode($response);
         $Status=$decode->response->Status;
         if ($Status=="Failed") {
