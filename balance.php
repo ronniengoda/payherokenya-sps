@@ -8,5 +8,5 @@ $data=array(
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/balance.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/balance",$jdata);
 print_r($response);
