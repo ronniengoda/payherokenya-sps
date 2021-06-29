@@ -11,5 +11,5 @@ include 'global.php';
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/sms_api.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/sms_api",$jdata);
 print_r($response);
