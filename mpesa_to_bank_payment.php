@@ -19,7 +19,7 @@ $username="";//provide your username here
       );
   
   $jdata=json_encode($data);
-  $response=sendRequest("https://payherokenya.com/sps/portal/app/mtb.php",$jdata);//send request to initiate stk.
+  $response=sendRequest("https://payherokenya.com/sps/portal/app/mtb",$jdata);//send request to initiate stk.
   print_r($response);//print the response from sps.
   ?>
 
