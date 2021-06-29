@@ -7,5 +7,5 @@ $data=array(
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/transactions.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/transactions",$jdata);
 print_r($response);
