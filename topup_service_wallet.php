@@ -8,5 +8,5 @@ $data=array(
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/topup_service_wallet.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/topup_service_wallet",$jdata);
 print_r($response);
