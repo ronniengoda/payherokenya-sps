@@ -10,5 +10,5 @@ $data=array(
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/b2b.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/b2b",$jdata);
 print_r($response);
