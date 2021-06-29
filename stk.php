@@ -11,6 +11,6 @@ $data=array(
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/stk.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/stk",$jdata);
 print_r($response);
 //Thats it hit send and we will take care of the rest
