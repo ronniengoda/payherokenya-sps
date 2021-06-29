@@ -9,7 +9,7 @@ include 'global.php';
         'contact_phone'=>"",//provide your business contact phone
     );
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/create_app.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/create_app",$jdata);
 print_r($response);
 
 //EXPECTED JSON RESPONSE UPON SUCCESSFULL REGISTRATION
