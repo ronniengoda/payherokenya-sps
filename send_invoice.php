@@ -13,5 +13,5 @@ $data=array(
     );
   
 $jdata=json_encode($data);
-$response=sendRequest("https://payherokenya.com/sps/portal/app/send_invoice.php",$jdata);
+$response=sendRequest("https://payherokenya.com/sps/portal/app/send_invoice",$jdata);
 print_r($response);
