@@ -5,6 +5,7 @@ $data=array(
         'api_key' =>"",//provide api keyhere
         'username'=>"",//provide username here
         'amount'=>"",//provide the amount to be paid
+        'currency'=>"KES",//provide the currency to be used either KES or USD
         'invoice_number'=>"",//provide the invoice number: this will be sent to your callback as user reference.
         'description'=>"",//provide a brief decription of this invoice.
         'customer_email'=>"",//provide customer email
